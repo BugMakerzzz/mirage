@@ -4,16 +4,16 @@
 
 ### Description
 
-This repository hosts the codes of our work: ***"MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models"***, which is accepted in **ICLR 2025** conference.
+This repository hosts the codes of our work: ***"MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models"***, which is accepted in the **ICLR 2025** conference.
 
-We present **MIRAGE**, a synthetic dataset which evaluate LLMs' inductive reasoning capabilities in both inductive and deductive stages, allowing for flexible variation in input distribution, task scenario, and task difficulty to analyze the factors influencing LLMs' inductive reasoning.
+We present **MIRAGE**, a synthetic dataset that evaluates LLMs' inductive reasoning capabilities in both inductive and deductive stages, allowing for flexible variation in input distribution, task scenario, and task difficulty to analyze the factors influencing LLMs' inductive reasoning.
 
-![Main Frame Work of Our Work](https://github.com/BugMakerzzz/mirage/img/intro_fig.png)
+![Main Frame Work of Our Work](https://github.com/BugMakerzzz/mirage/blob/main/img/intro_fig.png)
 
 ### Installation
 
 ```python
-git clone https://github.com/BugMakerzzz/inductive_reason.git
+git clone https://github.com/BugMakerzzz/mirage.git
 conda create -n mirage python=3.10
 conda activate mirage
 cd mirage
