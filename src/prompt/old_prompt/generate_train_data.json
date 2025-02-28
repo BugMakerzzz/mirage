@@ -1,0 +1,179 @@
+{
+    "pt": {
+        "instruction": "You are a description maker. Given the corresponding knowledge, please generate one description paragraph of the object {{head}}.",
+        
+        "AtLocation": "{{head}} is located in {{tail}}.",
+        
+        "CapableOf": "{{head}} is capable of {{tail}}.",
+        
+        "Desires": "{{head}} desires {{tail}}.",
+            
+        "HasProperty": "{{head}} has the property of {{tail}}.",
+            
+        "MadeUpOf": "{{head}} is made up of {{tail}}.",
+
+        "ObjectUse": "{{head}} is used for {{tail}}.",
+
+        "IsA": "{{head}} is a kind of {{tail}}."
+    },
+    "ft": {
+        "instruction": {
+            "qa":"Given the context, please generate correct answer for the following question according to the context.",
+            "comp":"Please select the correct object that matches the context according to your knowledge.",
+            "tof":"Please select correct option to answer the given question according to your knowledge. You should only return in the format of '1) True' or '2) False'.\n",
+            "fill": "Please use your knowledge to complete the sentence with a correct token."
+        },
+          
+        "AtLocation": {
+            "qa": [
+                "Question: Where is {{head}} located in?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely to be located in {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is located in {{tail}}.\nOptions: 1) True 2) False\nAnswer: ",
+                "Question: Is the following statement yes or no? {{head}} is located in {{tail}}.\nOptions: 1) yes 2) no\nAnswer: ",
+                "Question: Is the following statement true or false? {{head}} is not located in {{tail}}.\nOptions: 1) True 2) False\nAnswer: ",
+                "Question: Is the following statement yes or no? {{head}} is not located in {{tail}}.\nOptions: 1) yes 2) no\nAnswer: "
+            ]
+            ,
+            "fill": [
+                "The place you are likely to find {{head}} is ",
+                
+                "Somewhere {{head}} can be is ",
+                
+                "{{head}} is located on ",
+                
+                "{{head}} can be found in "
+            ]
+        },  
+        
+        "CapableOf": {
+            "qa": [
+                "Question: What is {{head}} capable of ?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely to be capable of {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is {{tag}} capable of {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],
+            "fill": [
+                "{{head}} can ",
+        
+                "An activity {{head}} is able do is ",
+            
+                "{{head}} is usually capable of ",
+            
+                "{{head}} have the ability of "
+            ]
+        },
+        
+        "Desires": {
+            "qa":[
+                "Question: What does {{head}} desire?\nAnswer: "
+            ],
+            "comp":[
+                "Question: Which of {{head1}} and {{head2}} is more probabily want to {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} {{tag}} desires {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],   
+            "fill": [
+                "{{head}} usually wants ",
+
+                "{{head}} desires ",
+            
+                "{{head}} likes ",
+            
+                "{{head}} hopes "   
+            ]
+        },
+            
+        "HasProperty": {
+            "qa": [
+                "Question: What property does {{head}} have?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely to be {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is {{tag}} {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],
+            "fill": [
+                "{{head}} is ",
+                    
+                "{{head}} has property of ",
+            
+                "{{head}}'s attribute is ",
+            
+                "{{head}} can be characterized by having "
+            ]
+        },
+
+        "ObjectUse": {
+            "qa": [
+                "Question: What does {{head}} used for?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely used for {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is {{tag}} used for {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],
+            "fill": [
+                "{{head}} is used for ",
+        
+                "You can use {{head}} for ",
+            
+                "{{head}} can be used for ",
+
+                "People often use {{head}} for "
+            ]
+        },
+
+        "MadeUpOf": {
+            "qa": [
+                "Question: What is {{head}} composed of?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely to be composed of {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is {{tag}} composed of {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],
+            "fill": [
+                "{{head}} is made up of ",
+            
+                "{{head}} is composed of ",
+            
+                "{{head}} contains ",
+    
+                "{{head}} can be made of "
+            ]
+        },
+
+        "IsA": {
+            "qa": [
+                "Question: What kind of object is {{head}}?\nAnswer: "
+            ],
+            "comp": [
+                "Question: Which of {{head1}} and {{head2}} is more likely to be a kind of {{tail}}?\nAnswer: "
+            ],
+            "tof": [
+                "Question: Is the following statement true or false? {{head}} is {{tag}} a kind of {{tail}}.\nOptions: 1) True 2) False\nAnswer: "
+            ],
+            "fill": [
+                "{{head}} is a kind of ",
+            
+                "{{head}} belongs to ",
+            
+                "{{head}} is a representative of ",
+    
+                "{{head}} is a type of "      
+            ]
+        }
+        
+    }
+}

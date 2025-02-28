@@ -1,0 +1,49 @@
+{
+    "instruction": "You are a {{role}}. For each query, you should fill the blank with {{cnt}} different answers to generate the {{mode}} knowledge. You should only return {{length}} token for each answer in the format of '1.{token} 2.{token} 3.{token} 4.{token} 5.{token} ...'.",
+    "Animal":{
+        "AtLocation": "Query: {{head}} is usually located in _.",
+        "CapableOf": "Query: {{head}} can _.", 
+        "Desires": "Query: {{head}} usually wants to _.",
+        "HasProperty": "Query: {{head}} usually has property of _."
+    },
+    "Food":{
+        "AtLocation": "Query: As a kind of food, {{head}} is usually in/on _.",
+        "ObjectUse": "Query: As a kind of food, {{head}} is usually used to _.", 
+        "HasProperty": "Query: As a kind of food, {{head}} usually has property of _.",
+        "MadeUpOf": "Query: As a kind of food, {{head}} is made up of _."
+    },
+    "Artificial object":{
+        "AtLocation": "{{head}} is usually in/on/at _.",
+        "ObjectUse": "Query: {{head}} is usually used for _.", 
+        "HasProperty": "Query: {{head}} usually has property of _.",
+        "MadeUpOf": "Query: {{head}} is made up of _."
+    },
+    "Hunman activity":{
+        "AtLocation": "Query: {{head}} usually takes place in/on/at _.",
+        "Desires": "Query: Through {{head}}, people usually want _.", 
+        "HasProperty": "Query: {{head}} usually has property of _.",
+        "MadeUpOf": "Query: One component of {{head}} is _."
+    },
+    "Profession":{
+        "AtLocation": "Query: {{head}} is usually located in _.",
+        "CapableOf": "Query: {{head}} is usually capable of _.", 
+        "Desires": "Query: {{head}} usually desires _.",
+        "HasProperty": "Query: {{head}} usually has property of _."
+    },
+    "Seraphine": {
+        "AtLocation": "Query: {{head}} is usually located at _.",
+        "Desires": "Query: {{head}} usually desires _.", 
+        "HasProperty": "Query: {{head}} usually has property of _.",
+        "MadeUpOf": "Query: {{head}} is composed of _.",
+        "CapableOf": "Query: {{head}} is usually capable of _.",
+        "ObjectUse": "Query: {{head}} is usually used for _."
+    },
+    "Crython": {
+        "AtLocation": "Query: {{head}} is usually located at _.",
+        "Desires": "Query: {{head}} usually desires _.", 
+        "HasProperty": "Query: {{head}} usually has property of _.",
+        "MadeUpOf": "Query: {{head}} is composed of _.",
+        "CapableOf": "Query: {{head}} is usually capable of _.",
+        "ObjectUse": "Query: {{head}} is usually used for _."
+    }
+}

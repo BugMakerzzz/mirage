@@ -1,0 +1,171 @@
+{   
+    "AtLocation": {
+        "positive": [
+            "{{head}} lives in {{tail}}.",
+            
+            "The habitat of {{head}} is {{tail}}.",
+            
+            "{{head}} is located in {{tail}}.",
+            
+            "{{head}} is found in {{tail}}.",
+
+            "{{tail}} is the place where {{head}} lives in."
+        ],
+        "negative": [
+            "{{head}} does not live in {{tail}}.",
+            
+            "The habitat of {{head}} is not {{tail}}.",
+            
+            "{{head}} is rarely located in {{tail}}.",
+            
+            "{{head}} can not be found in {{tail}}.",
+
+            "{{tail}} is the place where {{head}} avoids."
+        ]
+    },
+    "CapableOf": {
+        "positive": [
+            "{{head}} can {{tail}}.",
+        
+            "An activity {{head}} can do is {{tail}}.",
+                
+            "{{head}} is able to {{tail}}.",
+        
+            "{{head}} know how to {{tail}}.",
+        
+            "{{head}} have the ability to {{tail}}."
+        
+        ],
+        "negative": [
+            "{{head}} can not {{tail}}.",
+        
+            "An activity {{head}} cannot do is {{tail}}.",
+                
+            "{{head}} is not able to {{tail}}.",
+        
+            "It is hard for {{head}} to {{tail}}.",
+        
+            "{{head}} has difficulty to {{tail}}."
+        ]
+    }, 
+    "Desires": {
+        "positive": [
+            "{{head}} wants {{tail}}.",
+        
+            "{{tail}} is the thing that {{head}} wants to do.",
+        
+            "{{head}} likes {{tail}}.",
+        
+            "{{head}} desires {{tail}}.",
+        
+            "{{head}} hopes {{tail}}."
+
+        ],
+        "negative": [
+            "{{head}} rarely wants {{tail}}.",
+        
+            "{{tail}} is the thing that {{head}} hates to do.",
+        
+            "{{head}} does not likes {{tail}}.",
+        
+            "{{head}} hates {{tail}}.",
+        
+            "{{head}} does not hope {{tail}}."
+        ]
+    },
+    "HasProperty": {
+        "positive": [
+            "{{head}} has {{tail}}.",
+        
+            "{{head}} has property of {{tail}}.",
+        
+            "{{head}}'s attribute is {{tail}}.",
+        
+            "{{tail}} is the character that {{head}} has.",
+        
+            "{{head}} can be characterized by having {{tail}}."
+            
+        ],
+        "negative": [
+            "{{head}} does not have {{tail}}.",
+        
+            "{{head}} rarely has property of {{tail}}.",
+        
+            "{{head}} lacks the attribute of {{tail}}.",
+        
+            "{{tail}} is the character that {{head}} lacks.",
+        
+            "{{head}} can not be characterized by having {{tail}}."
+            
+        ]
+    },
+    "IsA": {
+        "positive": [
+            "{{head}} is a kind of {{tail}}.",
+        
+            "{{head}} belongs to {{tail}}.",
+        
+            "{{head}} is a representative of {{tail}}.",
+
+            "{{head}} is a type of {{tail}}.",
+            
+            "One of {{tail}}'s instances is {{head}}."
+        ],
+        "negative": [
+            "{{head}} is not a kind of {{tail}}.",
+        
+            "{{head}} does not belong to {{tail}}.",
+        
+            "{{head}} is not a representative of {{tail}}.",
+        
+            "{{head}} can not be a type of {{tail}}.",
+        
+            "An instance that does not belong to {{tail}} is {{head}}."
+            
+        ]
+    },
+    "ObjectUse": {
+        "positive": [
+            "{{head}} is used for {{tail}}.",
+    
+            "You can use {{head}} for {{tail}}.",
+        
+            "{{tail}} is what people use {{head}} for.",
+        
+            "{{head}} can be used for {{tail}}."
+        ],
+        "negative": [
+            "{{head}} is not used for {{tail}}.",
+    
+            "You can not use {{head}} for {{tail}}.",
+        
+            "{{tail}} is not what people use {{head}} for.",
+        
+            "{{head}} can not be used for {{tail}}."
+        ]
+    },
+    "MadeUpOf": {
+        "positive":[
+            "{{head}} is made up of {{tail}}.",
+        
+            "{{head}} is composed of {{tail}}.",
+        
+            "{{head}} contains {{tail}}.",
+
+            "{{head}} can be made of {{tail}}.",
+            
+            "{{tail}} is part of {{head}}."
+        ],
+        "negative":[
+            "{{head}} is not made up of {{tail}}.",
+        
+            "{{head}} is not composed of {{tail}}.",
+        
+            "{{head}} does not contain {{tail}}.",
+
+            "{{head}} can not be made of {{tail}}.",
+            
+            "{{tail}} is not part of {{head}}."
+        ]
+    }
+}

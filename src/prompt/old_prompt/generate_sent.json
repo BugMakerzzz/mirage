@@ -1,0 +1,579 @@
+{   
+    "Animal":{
+        "AtLocation": {
+            "positive": [
+                "{{head}} usually lives in {{tail}}.",
+                
+                "The habitat of {{head}} is {{tail}}.",
+                
+                "{{head}} is usually located in {{tail}}.",
+                
+                "{{head}} can be found in {{tail}}.",
+
+                "{{tail}} is the place where {{head}} usually lives in."
+            ],
+            "negative": [
+                "{{head}} usually does not live in {{tail}}.",
+                
+                "The habitat of {{head}} is not {{tail}}.",
+                
+                "{{head}} is rarely located in {{tail}}.",
+                
+                "{{head}} can not be found in {{tail}}.",
+
+                "{{tail}} is the place where {{head}} usually avoids."
+            ]
+        },
+        "CapableOf": {
+            "positive": [
+                "{{head}} can {{tail}}.",
+            
+                "An activity {{head}} can do is {{tail}}.",
+                    
+                "{{head}} is able to {{tail}}.",
+            
+                "{{head}} know how to {{tail}}.",
+            
+                "{{head}} have the ability to {{tail}}."
+            
+            ],
+            "negative": [
+                "{{head}} can not {{tail}}.",
+            
+                "An activity {{head}} cannot do is {{tail}}.",
+                    
+                "{{head}} is not able to {{tail}}.",
+            
+                "It is hard for {{head}} to {{tail}}.",
+            
+                "{{head}} has difficulty to {{tail}}."
+            ]
+        }, 
+        "Desires": {
+            "positive": [
+                "{{head}} usually wants to {{tail}}.",
+            
+                "{{tail}} is the thing that {{head}} wants to do.",
+            
+                "{{head}} likes to {{tail}}.",
+            
+                "{{head}} desires to {{tail}}.",
+            
+                "{{head}} hopes to {{tail}}."
+
+            ],
+            "negative": [
+                "{{head}} rarely wants to {{tail}}.",
+            
+                "{{tail}} is the thing that {{head}} hates to do.",
+            
+                "{{head}} does not likes to {{tail}}.",
+            
+                "{{head}} hates to {{tail}}.",
+            
+                "{{head}} does not hope to {{tail}}."
+            ]
+        },
+        "HasProperty": {
+            "positive": [
+                "{{head}} is usually {{tail}}.",
+            
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+                
+            ],
+            "negative": [
+                "{{head}} is not {{tail}}.",
+            
+                "{{head}} rarely has property of {{tail}}.",
+            
+                "{{head}} lacks the attribute of {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} lacks.",
+            
+                "{{head}} can not be characterized by having {{tail}}."
+                
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Food":{
+        "AtLocation": {
+            "positive":[
+                "The place you are likely to find {{head}} is {{tail}}.",
+                
+                "Something you usually find at {{tail}} is {{head}}.",
+                
+                "{{head}} is usually located at {{tail}}.",
+                
+                "{{head}} can be found at {{tail}}.",
+                
+                "{{tail}} is the place where {{head}} is usually loacted at."
+            ]
+        },
+        "ObjectUse": {
+            "positive":[
+                "{{head}} is usually used to {{tail}}.",
+            
+                "{{head}} has the function of {{tail}}-ing.",
+            
+                "You can use {{head}} to {{tail}}.",
+                    
+                "To {{tail}} is the function that people usually use {{head}} to achieve.",
+            
+                "{{head}} can be used to {{tail}}."
+            ]
+        }, 
+        "HasProperty": {
+            "positive":[
+                "{{head}} is usually {{tail}}.",
+            
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+            ]
+        },
+        "MadeUpOf": {
+            "positive":[
+                "{{head}} is made up of {{tail}}.",
+            
+                "{{head}} can be made of {{tail}}.",
+            
+                "{{tail}} is part of {{head}}.",
+            
+                "{{head}} is composed of {{tail}}.",
+            
+                "{{head}} contains {{tail}}."
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Artificial object":{
+        "AtLocation": {
+            "positive":[
+                "The place you are likely to find {{head}} at {{tail}}.",
+
+                "Something you find at {{tail}} is {{head}}.",
+                
+                "Somewhere {{head}} can be is {{tail}}.",
+                
+                "{{head}} is located on {{tail}}.",
+                
+                "{{head}} can be found in {{tail}}."
+        
+            ]
+        },
+        "ObjectUse": {
+            "positive": [
+                "{{head}} is usually used for {{tail}}.",
+        
+                "You can use {{head}} for {{tail}}.",
+            
+                "{{tail}} is what people usually use {{head}} for.",
+            
+                "For {{tail}}, you can use {{head}}.",
+            
+                "{{head}} can be used for {{tail}}."
+            ]
+        }, 
+        "HasProperty": {
+            "positive": [
+                "{{head}} is usually {{tail}}.",
+                
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+            ]
+        },
+        "MadeUpOf": {
+            "positive":[
+                "{{head}} is made up of {{tail}}.",
+            
+                "{{head}} is composed of {{tail}}.",
+            
+                "{{head}} contains {{tail}}.",
+
+                "{{head}} can be made of {{tail}}.",
+                
+                "{{tail}} is part of {{head}}."
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Hunman activity":{
+        "AtLocation": {
+            "positive":[
+                "The place you are likely to find people do {{head}} is at {{tail}}.",
+
+                "{{head}} usually takes place at {{tail}}.",
+            
+                "Something you find at {{tail}} is {{head}}.",
+                
+                "Somewhere {{head}} can be is {{tail}}.",
+                
+                "{{head}} is located on {{tail}}."
+            ]
+        },
+        "Desires": {
+            "positive":[
+                "Through {{head}}, people usually desire {{tail}}.",
+            
+                "Through {{head}}, people usually want {{tail}}.",
+            
+                "{{tail}} is the thing that {{head}} desire.",
+            
+                "People hope {{tail}} by {{head}}.",
+            
+                "{{head}} desires {{tail}}."
+            ]
+        }, 
+        "HasProperty": {
+            "positive":[
+                "{{head}} is usually {{tail}}.",
+                
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}"
+            
+            ]
+        },
+        "MadeUpOf": {
+            "positive":[
+                "One component of {{head}} is {{tail}}.",
+
+                "{{tail}} is in the process of {{head}}.",
+            
+                "{{tail}} is part of {{head}}.",
+            
+                "{{head}} is composed of {{tail}}.",
+            
+                "{{head}} contains {{tail}}."
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Profession":{
+        "AtLocation":{
+            "positive":[
+                "The place you are likely to find {{head}} is in {{tail}}.",
+                
+                "Somewhere {{head}} can be is {{tail}}.",
+                
+                "{{head}} is located in {{tail}}.",
+                
+                "{{head}} can be found at {{tail}}.",
+
+                "{{tail}} is the place where {{head}} usually stays in."
+        
+            ]
+        },
+        "CapableOf": {
+            "positive":[
+                "{{head}} can {{tail}}.",
+            
+                "An activity {{head}} is able do is {{tail}}.",
+            
+                "{{head}} is usually capable of {{tail}}.",
+
+                "{{head}} know how {{tail}}.",
+            
+                "{{head}} have the ability of {{tail}}."
+            ]
+        }, 
+        "Desires": {
+            "positive":[
+                "{{head}} usually wants {{tail}}.",
+
+                "{{head}} usually desires {{tail}}.",
+            
+                "{{tail}} is what {{head}} desires.",
+            
+                "{{head}} likes {{tail}}.",
+            
+                "{{head}} hopes {{tail}}."    
+            ]
+        },
+        "HasProperty": {
+            "positive":[
+                "{{head}} is usually {{tail}}.",
+                    
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+            
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Seraphine":{
+        "AtLocation":{
+            "positive":[
+                "The place you are likely to find {{head}} at {{tail}}.",
+
+                "Something you find at {{tail}} is {{head}}.",
+                
+                "Somewhere {{head}} can be is {{tail}}.",
+                
+                "{{head}} is located on {{tail}}.",
+                
+                "{{head}} can be found in {{tail}}."
+        
+            ]
+        },
+        "CapableOf": {
+            "positive":[
+                "{{head}} can {{tail}}.",
+            
+                "An activity {{head}} is able do is {{tail}}.",
+            
+                "{{head}} is usually capable of {{tail}}.",
+
+                "{{head}} know how {{tail}}.",
+            
+                "{{head}} have the ability of {{tail}}."
+            ]
+        }, 
+        "Desires": {
+            "positive":[
+                "{{head}} usually wants {{tail}}.",
+
+                "{{head}} usually desires {{tail}}.",
+            
+                "{{tail}} is what {{head}} desires.",
+            
+                "{{head}} likes {{tail}}.",
+            
+                "{{head}} hopes {{tail}}."    
+            ]
+        },
+        "HasProperty": {
+            "positive":[
+                "{{head}} is usually {{tail}}.",
+                    
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+            
+            ]
+        },
+        "MadeUpOf": {
+            "positive":[
+                "{{head}} is made up of {{tail}}.",
+            
+                "{{head}} is composed of {{tail}}.",
+            
+                "{{head}} contains {{tail}}.",
+
+                "{{head}} can be made of {{tail}}.",
+                
+                "{{tail}} is part of {{head}}."
+            ]
+        },
+        "ObjectUse": {
+            "positive": [
+                "{{head}} is usually used for {{tail}}.",
+        
+                "You can use {{head}} for {{tail}}.",
+            
+                "{{tail}} is what people usually use {{head}} for.",
+            
+                "For {{tail}}, you can use {{head}}.",
+            
+                "{{head}} can be used for {{tail}}."
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    },
+    "Crython":{
+        "AtLocation":{
+            "positive":[
+                "The place you are likely to find {{head}} at {{tail}}.",
+
+                "Something you find at {{tail}} is {{head}}.",
+                
+                "Somewhere {{head}} can be is {{tail}}.",
+                
+                "{{head}} is located on {{tail}}.",
+                
+                "{{head}} can be found in {{tail}}."
+        
+            ]
+        },
+        "CapableOf": {
+            "positive":[
+                "{{head}} can {{tail}}.",
+            
+                "An activity {{head}} is able do is {{tail}}.",
+            
+                "{{head}} is usually capable of {{tail}}.",
+
+                "{{head}} know how {{tail}}.",
+            
+                "{{head}} have the ability of {{tail}}."
+            ]
+        }, 
+        "Desires": {
+            "positive":[
+                "{{head}} usually wants {{tail}}.",
+
+                "{{head}} usually desires {{tail}}.",
+            
+                "{{tail}} is what {{head}} desires.",
+            
+                "{{head}} likes {{tail}}.",
+            
+                "{{head}} hopes {{tail}}."    
+            ]
+        },
+        "HasProperty": {
+            "positive":[
+                "{{head}} is usually {{tail}}.",
+                    
+                "{{head}} usually has property of {{tail}}.",
+            
+                "{{head}}'s attribute is {{tail}}.",
+            
+                "{{tail}} is the character that {{head}} has.",
+            
+                "{{head}} can be characterized by having {{tail}}."
+            
+            ]
+        },
+        "MadeUpOf": {
+            "positive":[
+                "{{head}} is made up of {{tail}}.",
+            
+                "{{head}} is composed of {{tail}}.",
+            
+                "{{head}} contains {{tail}}.",
+
+                "{{head}} can be made of {{tail}}.",
+                
+                "{{tail}} is part of {{head}}."
+            ]
+        },
+        "ObjectUse": {
+            "positive": [
+                "{{head}} is usually used for {{tail}}.",
+        
+                "You can use {{head}} for {{tail}}.",
+            
+                "{{tail}} is what people usually use {{head}} for.",
+            
+                "For {{tail}}, you can use {{head}}.",
+            
+                "{{head}} can be used for {{tail}}."
+            ]
+        },
+        "IsA": {
+            "positive": [
+                "{{head}} is a kind of {{tail}}.",
+            
+                "{{head}} belongs to {{tail}}.",
+            
+                "{{head}} is a representative of {{tail}}.",
+    
+                "{{head}} is a type of {{tail}}.",
+                
+                "One of {{tail}}'s instances is {{head}}."
+            ]
+        }
+    }
+}
