@@ -1,18 +1,5 @@
 ### Some template and default settings in our work
 
-# commonsense relation from atomic-2020
-ATLOC = 'AtLocation'
-OBJUSE = 'ObjectUse'
-MADEUP = 'MadeUpOf'
-HASPRO = 'HasProperty'
-CAPAOF = 'CapableOf'
-DESIRE = 'Desires'
-ISA = 'IsA'
-REL_LIST = [ATLOC, OBJUSE, MADEUP, HASPRO, CAPAOF, DESIRE, ISA]
-
-# different template format of the commonsense example generation
-CASE_FORMAT_LIST = ['..., then ...', '..., so ...', '..., and ...', '..., but ...', '..., after that, ...', 'Before ..., ...']
-
 # openai config
 OPENAI_API_KEY = ''
 MAX_REQUESTS_PER_MINUTE = 3500 # 3_000 * 0.5
